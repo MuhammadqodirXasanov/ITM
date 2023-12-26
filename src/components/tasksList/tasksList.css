@@ -1,0 +1,26 @@
+.tasks-list__list {
+    margin-top: 10px;
+    margin-left: 10px;
+    list-style-type: none;
+}
+.l-through {
+    text-decoration: line-through;
+    opacity: 0.7;
+}
+.tasks-list__flex {
+    display: flex;
+    gap: 13px;
+}
+.checkbox {
+    width: 20px;
+    height: 20px;
+    margin-bottom: 15px;
+}
+.tasks-list__item {
+    display: flex;
+    justify-content: space-between;
+}
+.time-heading {
+    margin-top: 20px;
+    margin-bottom: 5px;
+}

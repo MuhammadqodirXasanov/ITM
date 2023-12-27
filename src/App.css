@@ -6,9 +6,17 @@
 }
 .App {
     min-width: 375px;
-    height: 100vh;
+    min-height: 100vh;
     display: flex;
     padding: 20px;
     flex-direction: column;
     align-items: center;
+}
+@media only screen and (max-width: 425px) {
+    h2 {
+        font-size: 22px;
+    }
+    p {
+        font-size: 14px;
+    }
 }
